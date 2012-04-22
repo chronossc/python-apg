@@ -1,4 +1,12 @@
-python-apg
+Install
 ==========
 
-Simple api to create passwords using APG - Advanced Password Generator, from http://www.adel.nursat.kz/apg/
+Copy apg.py to Python Path, I'll provide a installer soon.
+
+Usage
+==========
+
+apg.py have two methods:
+
+create_apg_password: The wrapper to APG, run apg with parameters in a subprocess
+create_apg_username: Call create_apg_password with exclude_chars=string.punctuation
